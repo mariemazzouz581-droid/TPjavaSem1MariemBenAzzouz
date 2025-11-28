@@ -21,7 +21,7 @@ public class tp1 {
             int note;
             do{
                 System.out.println("note"+(i+1)+"(0 a 20):");
-                note=sc.nextInt(i);
+                note=sc.nextInt();
             }while (note<0 || note>20) ;
             notes.add(note);
         }
